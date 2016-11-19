@@ -11,6 +11,8 @@ def maka_do_sql(sql):
 
         result = cur.execute(sql)
 
+        result = cur.fetchall()
+
         conn.commit()
         cur.close()
         conn.close()
