@@ -120,6 +120,8 @@ class CalculateManager(object):
             if count > middle :
                 #da
                 da = targetArray[0]
+                if not (da.get('chance')):
+                    da['chance'] = 0.5
                 if not (da.get('title')):
                     da['title'] = 'da'
                 if not (da.get('left')):
@@ -130,6 +132,8 @@ class CalculateManager(object):
                     da['cishu'] = da['cishu'] + 1
             elif count < middle:
                 xiao = targetArray[1]
+                if not (xiao.get('chance')):
+                    xiao['chance'] = 0.5
                 if not (xiao.get('title')):
                     xiao['title'] = 'xiao'
                 if not (xiao.get('left')):
@@ -141,6 +145,8 @@ class CalculateManager(object):
             if count%2==1:
                 # da
                 dan = targetArray[2]
+                if not (dan.get('chance')):
+                    dan['chance'] = 0.5
                 if not (dan.get('title')):
                     dan['title'] = 'dan'
                 if not (dan.get('left')):
@@ -151,6 +157,8 @@ class CalculateManager(object):
                     dan['cishu'] = dan['cishu'] + 1
             else:
                 shuang = targetArray[3]
+                if not (shuang.get('chance')):
+                    shuang['chance'] = 0.5
                 if not (shuang.get('title')):
                     shuang['title'] = 'shuang'
                 if not (shuang.get('left')):
@@ -161,7 +169,7 @@ class CalculateManager(object):
                     shuang['cishu'] = shuang['cishu'] + 1
 
 
-            if index%100 == 99:
+            if index%100 == 0:
                 nnn = 0
                 for inner in self.pointArray:
                     if index == inner -1 :
