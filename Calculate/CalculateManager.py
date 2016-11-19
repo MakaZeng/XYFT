@@ -7,7 +7,7 @@ class CalculateManager(object):
     dataList = []
     results = []
 
-    pointArray = [200,400,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000];
+    pointArray = [200,400,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000]
 
     def __init__(self):
         super(CalculateManager, self).__init__()
@@ -107,7 +107,7 @@ class CalculateManager(object):
             if not (dic.get('chance')):
                 dic['chance'] = 0.5
             if not (dic.get('left')):
-                dic['left'] = index
+                dic['left'] = index-1
 
             if not (dic.get('cishu')):
                 dic['cishu'] = 1
@@ -115,7 +115,7 @@ class CalculateManager(object):
                 dic['cishu'] = dic['cishu']+1
 
             middle = 0.5
-            middle = (endNumber - beginNumber - inset)/2 + beginNumber
+            middle = (endNumber - beginNumber - inset)/2.0 + beginNumber
 
             if count > middle :
                 #da
@@ -125,7 +125,7 @@ class CalculateManager(object):
                 if not (da.get('title')):
                     da['title'] = 'da'
                 if not (da.get('left')):
-                    da['left'] = index
+                    da['left'] = index-1
                 if not (da.get('cishu')):
                     da['cishu'] = 1
                 else:
@@ -137,7 +137,7 @@ class CalculateManager(object):
                 if not (xiao.get('title')):
                     xiao['title'] = 'xiao'
                 if not (xiao.get('left')):
-                    xiao['left'] = index
+                    xiao['left'] = index-1
                 if not (xiao.get('cishu')):
                     xiao['cishu'] = 1
                 else:
@@ -150,7 +150,7 @@ class CalculateManager(object):
                 if not (dan.get('title')):
                     dan['title'] = 'dan'
                 if not (dan.get('left')):
-                    dan['left'] = index
+                    dan['left'] = index-1
                 if not (dan.get('cishu')):
                     dan['cishu'] = 1
                 else:
@@ -162,7 +162,7 @@ class CalculateManager(object):
                 if not (shuang.get('title')):
                     shuang['title'] = 'shuang'
                 if not (shuang.get('left')):
-                    shuang['left'] = index
+                    shuang['left'] = index-1
                 if not (shuang.get('cishu')):
                     shuang['cishu'] = 1
                 else:
@@ -172,7 +172,7 @@ class CalculateManager(object):
             if index%100 == 0:
                 nnn = 0
                 for inner in self.pointArray:
-                    if index == inner -1 :
+                    if index == inner :
                         nnn = inner
                         break
                 if nnn > 0:
