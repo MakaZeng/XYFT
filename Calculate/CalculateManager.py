@@ -27,6 +27,34 @@ class CalculateManager(object):
             json = demjson.encode(self.results)
             print json
 
+    def chanceArrayForType(self,type):
+        chanceArray = []
+        if type == 11 :
+            chanceArray = [1.0 / 45, 1.0 / 45, 1.0 / 22.5, 1.0 / 22.5, 1.0 / 15, 1.0 / 15, 1.0 / 11.25, 1.0 / 11.25,
+                           1.0 / 9, 1.0 / 11.25, 1.0 / 11.25, 1.0 / 15, 1.0 / 15, 1.0 / 22.5, 1.0 / 22.5, 1.0 / 45,
+                           1.0 / 45]
+        elif type == 12 :
+            chanceArray = [1.0 / 120, 1.0 / 120, 1.0 / 60, 1.0 / 40, 1.0 / 30, 1.0 / 24, 1.0 / 17.15, 1.0 / 15,
+                           1.0 / 13.33, 1.0 / 12, 1.0 / 12, 1.0 / 12, 1.0 / 12, 1.0 / 13.33, 1.0 / 15, 1.0 / 17.15,
+                           1.0 / 24 , 1.0 / 30 , 1.0 / 40 , 1.0 / 60 ,1.0 / 120,1.0 / 120]
+        else :
+            chanceArray = [.1,.1,.1,.1,.1,.1,.1,.1,.1,.1]
+
+        return chanceArray
+
+    def calculateChanceForNumberAndType(self,number,type):
+        beginNumber = 1
+        endNumber = 10
+        if type == 11 :
+            beginNumber = 3
+            endNumber = 19
+        elif type == 12 :
+            beginNumber = 6
+            endNumber = 27
+
+        chanceArray = self.chanceArrayForType(type)
+        return chanceArray[number - beginNumber]
+
     def calculateSourceArray(self,dataList,targetDictionary,type):
 
         targetArray = targetDictionary[str(type)]
@@ -105,7 +133,7 @@ class CalculateManager(object):
             if not (dic.get('title')):
                 dic['title'] = count
             if not (dic.get('chance')):
-                dic['chance'] = 0.5
+                dic['chance'] = self.calculateChanceForNumberAndType(count,type)
             if not (dic.get('left')):
                 dic['left'] = index-1
 
