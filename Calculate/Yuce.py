@@ -26,7 +26,7 @@ class Yuce(object):
         insertsql = "INSERT INTO {0}.{1} (qishutype,status,road,numbers,beat) VALUES ('{2}','{3}','{4}','{5}','{6}');".format(DBC.Database,'yuce',str(long(top)+1)+'1','0',type1['road'],type1['numbers'],type1['beat'])
         DBM.maka_do_sql(insertsql)
         touzhu = []
-        count = random.uniform(1,9)
+        count = int(random.uniform(1,9))
         roadDic = {}
         roadBeat = []
         for i in range(0,count):
