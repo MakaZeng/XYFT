@@ -38,3 +38,16 @@ CREATE TABLE `xyft`.`history` (
   `no10` VARCHAR(45) NULL,
   UNIQUE INDEX `qishu_UNIQUE` (`qishu` ASC),
   PRIMARY KEY (`qishu`));
+
+CREATE TABLE `xyft`.`user` (
+  `userID` BIGINT(20) NOT NULL AUTO_INCREMENT,
+  `userName` VARCHAR(512) NULL,
+  `userPassword` VARCHAR(512) NULL,
+  `phone` VARCHAR(45) NULL,
+  `email` VARCHAR(45) NULL,
+  `money` BIGINT(20) NULL,
+  `point` BIGINT(20) NULL,
+  `experience` BIGINT(10) NULL,
+  `userType` INT NULL,
+  PRIMARY KEY (`userID`),
+  UNIQUE INDEX `userID_UNIQUE` (`userID` ASC));
