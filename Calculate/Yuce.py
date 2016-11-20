@@ -2,6 +2,7 @@ import CalculateManager as CM
 import Dao.MysqlDBManager as DBM
 import Dao.MysqlDBConfig as DBC
 import random
+import Util.DateUtil as DU
 
 class Yuce(object):
     def __init__(self):
@@ -12,6 +13,10 @@ class Yuce(object):
         sql = "select {0} from {1} order by {2} DESC LIMIT 1".format(DBC.HISQI,DBC.HISTAB, DBC.HISQI)
         top = DBM.maka_do_sql(sql)
         top = top[0][0]
+        longTop = long(top)
+        if longTop > 0 :
+            next = DU.getNextDayZeroQishu(top)
+            top = next
 
         sql = "CREATE TABLE IF NOT EXISTS yuce (`qishutype` varchar(100) COLLATE utf8_bin NOT NULL,`road` varchar(50) DEFAULT NULL,`beat` varchar(50) DEFAULT NULL,`status` varchar(50) DEFAULT NULL,`numbers` varchar(100) COLLATE utf8_bin DEFAULT NULL,PRIMARY KEY (`qishutype`),UNIQUE KEY `qishutype_UNIQUE` (`qishutype`)) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;"
         DBM.maka_do_sql(sql)
