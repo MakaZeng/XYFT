@@ -7,7 +7,7 @@ import re
 import json
 import Calculate.CalculateManager as CCM
 import Util.DateUtil as DU
-
+import Calculate.Yuce as Yuce
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -40,3 +40,6 @@ if len(content):
     DBM.maka_do_sql(sql)
     cm = CCM.CalculateManager()
     cm.calculate()
+    time.sleep(1)
+    yc = Yuce.Yuce()
+    yc.startYuce()

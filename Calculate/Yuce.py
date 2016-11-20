@@ -73,7 +73,3 @@ class Yuce(object):
         random.shuffle(roads)
         random.shuffle(beats)
         return {'numbers':numbers,'road':roads[0],'beat':beats[0]}
-
-
-yc = Yuce()
-yc.startYuce()
