@@ -3,6 +3,7 @@ import Dao.MysqlDBManager as DBM
 import Dao.MysqlDBConfig as DBC
 import random
 import Util.DateUtil as DU
+import Touzhu.TouzhuController as TZ
 
 class Yuce(object):
     def __init__(self):
@@ -24,6 +25,22 @@ class Yuce(object):
         type1 = self.getRandom()
         insertsql = "INSERT INTO {0}.{1} (qishutype,status,road,numbers,beat) VALUES ('{2}','{3}','{4}','{5}','{6}');".format(DBC.Database,'yuce',str(long(top)+1)+'1','0',type1['road'],type1['numbers'],type1['beat'])
         DBM.maka_do_sql(insertsql)
+        touzhu = []
+        count = random.uniform(1,9)
+        roadDic = {}
+        roadBeat = []
+        for i in range(0,count):
+            inner = {}
+            inner['number'] = type1['numbers'][i]
+            inner['beat'] = type1['beat']
+            roadBeat.append(inner)
+
+        roadDic['roadBeat'] = roadBeat;
+        roadDic['road'] = type1['road']
+
+        touzhu.append(roadDic)
+
+        TZ.touzhu(str(long(top)+1),touzhu,1001)
 
         type2 = self.getRandom()
         insertsql = "INSERT INTO {0}.{1} (qishutype,status,road,numbers,beat) VALUES ('{2}','{3}','{4}','{5}','{6}');".format(
