@@ -42,7 +42,7 @@ if len(content):
     cm = CCM.CalculateManager()
     cm.calculate()
     json = demjson.encode(cm.results)
-    sql = "CREATE TABLE IF NOT EXISTS tongji (`qishu` varchar(100) COLLATE utf8_bin NOT NULL,`result` varchar(10000) DEFAULT NULL,PRIMARY KEY (`qishu`),UNIQUE KEY `qishu_UNIQUE` (`qishu`)) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;"
+    sql = "CREATE TABLE IF NOT EXISTS tongji (`qishu` varchar(100) COLLATE utf8_bin NOT NULL,`result` varchar(100000) DEFAULT NULL,PRIMARY KEY (`qishu`),UNIQUE KEY `qishu_UNIQUE` (`qishu`)) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;"
     DBM.maka_do_sql(sql)
     sql = "INSERT INTO {0}.{1} (qishu,result) VALUES ('{2}','{3}');".format(CF.Database,'tongji',qishu,json)
     DBM.maka_do_sql(sql)
