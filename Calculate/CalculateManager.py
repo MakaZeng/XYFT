@@ -24,8 +24,6 @@ class CalculateManager(object):
                 self.calculateSourceArray(self.dataList,targetDictionary, i);
                 self.results.append(targetDictionary)
             # init self.results - > [{},{},{}]
-            json = demjson.encode(self.results)
-            print json
 
     def chanceArrayForType(self,type):
         chanceArray = []

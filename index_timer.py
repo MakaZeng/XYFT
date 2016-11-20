@@ -8,6 +8,7 @@ import json
 import Calculate.CalculateManager as CCM
 import Util.DateUtil as DU
 import Calculate.Yuce as Yuce
+import demjson
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -40,6 +41,12 @@ if len(content):
     DBM.maka_do_sql(sql)
     cm = CCM.CalculateManager()
     cm.calculate()
+    json = demjson.encode(cm.results)
+    sql = "CREATE TABLE IF NOT EXISTS tongji (`qishu` varchar(100) COLLATE utf8_bin NOT NULL,`result` varchar(10000) DEFAULT NULL,PRIMARY KEY (`qishu`),UNIQUE KEY `qishu_UNIQUE` (`qishu`)) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;"
+    DBM.maka_do_sql(sql)
+    sql = "INSERT INYO {0}.{1} (qishu,result) VALUES ('{2}','{3}');".format(CF.Database,'tongji',qishu,json)
+    DBM.maka_do_sql(sql)
+
     time.sleep(1)
     yc = Yuce.Yuce()
     yc.startYuce()
