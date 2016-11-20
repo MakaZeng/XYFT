@@ -15,7 +15,7 @@ class Yuce(object):
         top = DBM.maka_do_sql(sql)
         top = top[0][0]
         longTop = long(top)
-        if longTop > 0 :
+        if longTop %180 == 0 :
             next = DU.getNextDayZeroQishu(top)
             top = next
 
