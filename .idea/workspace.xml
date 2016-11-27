@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="728a6261-5cd2-4ba4-a76a-1a520323fa97" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dao/DatabaseCreator.py" afterPath="$PROJECT_DIR$/Dao/DatabaseCreator.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_timer.py" afterPath="$PROJECT_DIR$/index_timer.py" />
     </list>
     <ignored path="XYFT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,68 +22,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index_timer.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index_timer.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index_timer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <state relative-caret-position="450">
+              <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatabaseCreator.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Dao/DatabaseCreator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Yuce.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Calculate/Yuce.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DateUtil.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Util/DateUtil.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TouzhuController.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Touzhu/TouzhuController.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CalculateManager.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Calculate/CalculateManager.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -111,8 +57,8 @@
         <option value="$PROJECT_DIR$/Dao/MysqlDBConfig.py" />
         <option value="$PROJECT_DIR$/Touzhu/TouzhuController.py" />
         <option value="$PROJECT_DIR$/Calculate/Yuce.py" />
-        <option value="$PROJECT_DIR$/index_timer.py" />
         <option value="$PROJECT_DIR$/Dao/DatabaseCreator.py" />
+        <option value="$PROJECT_DIR$/index_timer.py" />
       </list>
     </option>
   </component>
@@ -920,22 +866,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index_timer.py">
+    <entry file="file://$PROJECT_DIR$/Dao/DatabaseCreator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state relative-caret-position="-100">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dao/DatabaseCreator.py">
+    <entry file="file://$PROJECT_DIR$/index_timer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        <state relative-caret-position="450">
+          <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
