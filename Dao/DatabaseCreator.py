@@ -25,7 +25,7 @@ def CreateTableHistoryIfNotEXist():
 def CreateTableTongjiIfNotEXist():
     createSql = "CREATE TABLE IF NOT EXISTS {0} ( \
     {1} VARCHAR(45) NOT NULL, \
-    {2} VARCHAR(200000) NOT NULL, \
+    {2} TEXT NOT NULL, \
     PRIMARY KEY ({1}), \
     UNIQUE INDEX `{1}_UNIQUE` (`{1}` ASC)) \
     ENGINE = InnoDB \
