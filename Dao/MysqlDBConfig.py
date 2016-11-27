@@ -21,3 +21,7 @@ HISN7 = 'no7'
 HISN8 = 'no8'
 HISN9 = 'no9'
 HISN10 = 'no10'
+
+TJTAB = 'tongji'
+TJQI = 'qishu'
+TJRS = 'result'
