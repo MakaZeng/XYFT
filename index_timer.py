@@ -46,7 +46,7 @@ if len(content):
     json = demjson.encode(cm.results)
 
     DBC.CreateTableTongjiIfNotEXist()
-    sql = "INSERT INTO {0}.{1} ({2},{3}) VALUES ('{4}','{5}');".format(CF.Database,CF.TJTAB,CF.TJQI,CF.TJRS,qishu,json)
+    sql = "DELETE FROM {0}.{1} WHERE {2} > 0;INSERT INTO {0}.{1} ({2},{3}) VALUES ('{4}','{5}');".format(CF.Database,CF.TJTAB,CF.TJQI,CF.TJRS,qishu,json)
     DBM.maka_do_sql(sql)
 
     time.sleep(1)
