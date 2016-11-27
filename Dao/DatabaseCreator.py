@@ -63,5 +63,3 @@ def CreateTableBeatListIfNotEXist():
     DEFAULT CHARACTER SET = utf8 \
     COLLATE = utf8_bin;".format(DBC.BLTAB,DBC.BLID,DBC.BLQI,DBC.BLTIME,DBC.BLROAD,DBC.BLNUMBER,DBC.BLMONEY,DBC.BLSTATUS)
     DBM.maka_do_sql(createSql)
-
-CreateTablePersonIfNotEXist()
