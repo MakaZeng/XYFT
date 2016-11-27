@@ -45,7 +45,7 @@ if len(content):
     cm.calculate()
     json = demjson.encode(cm.results)
 
-    DBC.CreateTableTongjiIfNotEXist()
+    #DBC.CreateTableTongjiIfNotEXist()
 
     sql = "DELETE FROM {0}.{1} WHERE {2} > 0;".format(CF.Database,CF.TJTAB,CF.TJQI)
     DBM.maka_do_sql(sql)
