@@ -53,11 +53,11 @@ def CreateTableBeatListIfNotEXist():
     {1} BIGINT(10) NOT NULL AUTO_INCREMENT, \
     {2} VARCHAR(45) NOT NULL, \
     {3} DATETIME NOT NULL, \
-    {4} INT NOT NULL, \
-    {5} INT NOT NULL, \
+    {4} VARCHAR(45) NOT NULL, \
+    {5} VARCHAR(45) NOT NULL, \
     {6} BIGINT(10) NOT NULL, \
     {7} INT NOT NULL, \
-    {8} BIGINT(10) NOT NULL \
+    {8} BIGINT(10) NOT NULL, \
     PRIMARY KEY ({1}), \
     UNIQUE INDEX `{1}_UNIQUE` (`{1}` ASC)) \
     ENGINE = InnoDB \
