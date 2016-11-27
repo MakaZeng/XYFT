@@ -39,6 +39,7 @@ class Yuce(object):
             DBC.Database, DBC.BLTAB, \
             DBC.BLQI, DBC.BLTIME, DBC.BLROAD, DBC.BLNUMBER, DBC.BLMONEY,DBC.BLSTATUS, DBC.BLPERSON, \
             str(long(top)+1),currentTime,type['road'],n,long(type['beat']),0,personID)
+        print insertsql
         DBM.maka_do_sql(insertsql)
 
 
