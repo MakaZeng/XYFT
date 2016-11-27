@@ -49,4 +49,5 @@ class Yuce(object):
         random.shuffle(numbers)
         random.shuffle(roads)
         random.shuffle(beats)
-        return {'numbers':numbers[0:random.randint(2,5)],'road':roads[0],'beat':beats[0]}
+        random.seed(time.time())
+        return {'numbers':numbers[0:random.randint(3,5)],'road':roads[0],'beat':beats[0]}
