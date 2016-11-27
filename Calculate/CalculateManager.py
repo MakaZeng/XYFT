@@ -128,14 +128,14 @@ class CalculateManager(object):
             else:
                 count = 0
             dic = targetArray[int(count) - int(beginNumber) + inset];
-            if not (dic.get('title')):
+            if not (dic.has_key('title')):
                 dic['title'] = count
-            if not (dic.get('chance')):
+            if not (dic.has_key('chance')):
                 dic['chance'] = self.calculateChanceForNumberAndType(count,type)
-            if not (dic.get('left')):
+            if not (dic.has_key('left')):
                 dic['left'] = index-1
 
-            if not (dic.get('cishu')):
+            if not (dic.has_key('cishu')):
                 dic['cishu'] = 1
             else:
                 dic['cishu'] = dic['cishu']+1
@@ -146,50 +146,50 @@ class CalculateManager(object):
             if count > middle :
                 #da
                 da = targetArray[0]
-                if not (da.get('chance')):
+                if not (da.has_key('chance')):
                     da['chance'] = 0.5
-                if not (da.get('title')):
+                if not (da.has_key('title')):
                     da['title'] = 'da'
-                if not (da.get('left')):
+                if not (da.has_key('left')):
                     da['left'] = index-1
-                if not (da.get('cishu')):
+                if not (da.has_key('cishu')):
                     da['cishu'] = 1
                 else:
                     da['cishu'] = da['cishu'] + 1
             elif count < middle:
                 xiao = targetArray[1]
-                if not (xiao.get('chance')):
+                if not (xiao.has_key('chance')):
                     xiao['chance'] = 0.5
-                if not (xiao.get('title')):
+                if not (xiao.has_key('title')):
                     xiao['title'] = 'xiao'
-                if not (xiao.get('left')):
+                if not (xiao.has_key('left')):
                     xiao['left'] = index-1
-                if not (xiao.get('cishu')):
+                if not (xiao.has_key('cishu')):
                     xiao['cishu'] = 1
                 else:
                     xiao['cishu'] = xiao['cishu'] + 1
             if count%2==1:
                 # da
                 dan = targetArray[2]
-                if not (dan.get('chance')):
+                if not (dan.has_key('chance')):
                     dan['chance'] = 0.5
-                if not (dan.get('title')):
+                if not (dan.has_key('title')):
                     dan['title'] = 'dan'
-                if not (dan.get('left')):
+                if not (dan.has_key('left')):
                     dan['left'] = index-1
-                if not (dan.get('cishu')):
+                if not (dan.has_key('cishu')):
                     dan['cishu'] = 1
                 else:
                     dan['cishu'] = dan['cishu'] + 1
             else:
                 shuang = targetArray[3]
-                if not (shuang.get('chance')):
+                if not (shuang.has_key('chance')):
                     shuang['chance'] = 0.5
-                if not (shuang.get('title')):
+                if not (shuang.has_key('title')):
                     shuang['title'] = 'shuang'
-                if not (shuang.get('left')):
+                if not (shuang.has_key('left')):
                     shuang['left'] = index-1
-                if not (shuang.get('cishu')):
+                if not (shuang.has_key('cishu')):
                     shuang['cishu'] = 1
                 else:
                     shuang['cishu'] = shuang['cishu'] + 1
