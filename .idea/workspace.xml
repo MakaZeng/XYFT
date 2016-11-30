@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="728a6261-5cd2-4ba4-a76a-1a520323fa97" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Calculate/Yuce.py" afterPath="$PROJECT_DIR$/Calculate/Yuce.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dao/DatabaseCreator.py" afterPath="$PROJECT_DIR$/Dao/DatabaseCreator.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dao/MysqlDBConfig.py" afterPath="$PROJECT_DIR$/Dao/MysqlDBConfig.py" />
     </list>
     <ignored path="XYFT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index_timer.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index_timer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index_timer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+            <state relative-caret-position="369">
+              <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -35,7 +37,7 @@
       <file leaf-file-name="get_history.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/get_history.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
+            <state relative-caret-position="570">
               <caret line="48" column="138" selection-start-line="48" selection-start-column="135" selection-end-line="48" selection-end-column="138" />
               <folding />
             </state>
@@ -45,7 +47,7 @@
       <file leaf-file-name="CalculateManager.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Calculate/CalculateManager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2435">
+            <state relative-caret-position="75">
               <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
               <folding />
             </state>
@@ -62,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatabaseCreator.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DatabaseCreator.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dao/DatabaseCreator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+            <state relative-caret-position="445">
+              <caret line="48" column="98" selection-start-line="48" selection-start-column="98" selection-end-line="48" selection-end-column="98" />
               <folding />
             </state>
           </provider>
@@ -75,8 +77,8 @@
       <file leaf-file-name="MysqlDBConfig.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dao/MysqlDBConfig.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="495">
+              <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -134,11 +136,11 @@
         <option value="$PROJECT_DIR$/Calculate/CalculateManager.py" />
         <option value="$PROJECT_DIR$/Dao/MysqlDBManager.py" />
         <option value="$PROJECT_DIR$/Network/NetworkManager.py" />
-        <option value="$PROJECT_DIR$/Dao/MysqlDBConfig.py" />
         <option value="$PROJECT_DIR$/Touzhu/TouzhuController.py" />
-        <option value="$PROJECT_DIR$/Dao/DatabaseCreator.py" />
         <option value="$PROJECT_DIR$/index_timer.py" />
         <option value="$PROJECT_DIR$/Calculate/Yuce.py" />
+        <option value="$PROJECT_DIR$/Dao/MysqlDBConfig.py" />
+        <option value="$PROJECT_DIR$/Dao/DatabaseCreator.py" />
       </list>
     </option>
   </component>
@@ -174,6 +176,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -278,7 +281,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -543,9 +545,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16325088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16325088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -893,7 +895,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Calculate/CalculateManager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2435">
+        <state relative-caret-position="75">
           <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
           <folding />
         </state>
@@ -903,22 +905,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dao/DatabaseCreator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dao/MysqlDBConfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -943,7 +929,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/get_history.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
+        <state relative-caret-position="570">
           <caret line="48" column="138" selection-start-line="48" selection-start-column="135" selection-end-line="48" selection-end-column="138" />
           <folding />
         </state>
@@ -951,8 +937,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index_timer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        <state relative-caret-position="369">
+          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dao/MysqlDBConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dao/DatabaseCreator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="48" column="98" selection-start-line="48" selection-start-column="98" selection-end-line="48" selection-end-column="98" />
           <folding />
         </state>
       </provider>

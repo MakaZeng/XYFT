@@ -31,6 +31,7 @@ PSID = 'personID'
 PSDEVICE = 'device'
 PSSTATUS = 'status'
 PSMONEY = 'money'
+PSNAME = 'name'
 PSHEAD = 'headImage'
 PSLEVEL = 'level'
 
