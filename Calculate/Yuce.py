@@ -1,3 +1,4 @@
+# coding=utf-8
 import CalculateManager as CM
 import Dao.MysqlDBManager as DBM
 import Dao.MysqlDBConfig as DBC
@@ -6,6 +7,7 @@ import time
 import Util.DateUtil as DU
 import Touzhu.TouzhuController as TZ
 import Dao.DatabaseCreator as CREATOR
+import User.UserController as USERCONTROLLER
 
 class Yuce(object):
     def __init__(self):
@@ -16,6 +18,11 @@ class Yuce(object):
         CREATOR.CreateTablePersonIfNotEXist()
         CREATOR.CreateTableBeatListIfNotEXist()
 
+        persons = [100,101,102,103,104,105,106,107,108,109]
+        names = ["1","2","3","4","5","6","7","8","9","10"]
+
+        for person in persons:
+            self.getTouzhuForPerson(person,names[person - 100])
         # sql = "select {0} from {1} order by {2} DESC LIMIT 1".format(DBC.HISQI,DBC.HISTAB, DBC.HISQI)
         # top = DBM.maka_do_sql(sql)
         # top = top[0][0]
@@ -43,6 +50,14 @@ class Yuce(object):
         # insertsql = insertsql[:-1]
         # print insertsql
         # DBM.maka_do_sql(insertsql)
+
+    def getTouzhuForPerson(self,person,name):
+        sql = "select * from {0} where {1} = {2};".format(DBC.PSTAB,DBC.PSID,person)
+        result = DBM.maka_do_sql(sql)
+        if not result:
+            result = USERCONTROLLER.inertPersonWith(person,name,name)
+            print result
+
 
 
     def getRandom(self):

@@ -21,7 +21,12 @@ content = NM.maka_simplegetcontent(beginURL)
 
 getTop = "select {0} from {1} ORDER BY {0} DESC LIMIT 1".format(CF.HISQI,CF.HISTAB)
 
-databaseTop = DBM.maka_do_sql(getTop)[0][0]
+result = DBM.maka_do_sql(getTop)
+
+databaseTop = 0
+
+if result:
+    databaseTop = result[0][0]
 
 if len(content):
     s = json.loads(content)
