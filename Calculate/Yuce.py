@@ -23,7 +23,7 @@ class Yuce(object):
         qishu = result[0][0]
 
         persons = [100,101,102,103,104,105,106,107,108,109]
-        names = ["1","2","3","4","5","6","7","8","9","10"]
+        names = ["幸运计划","牛牛计划","彩蛋计划","水果计划","主席计划","山羊计划","盖伦计划","小黑计划","进取计划","勇气计划"]
 
         for person in persons:
             self.getTouzhuForPerson(person,names[person - 100],qishu)
