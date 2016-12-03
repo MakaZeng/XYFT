@@ -136,3 +136,443 @@ Crawser_Start ---------------->
 DELETE FROM xyft.tongji WHERE qishu > 0;
 Crawser_Start ----------------> 
 Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+maka_do_sql mysql Error 2002: Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+maka_do_sql mysql Error 2002: Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+maka_do_sql mysql Error 2002: Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+Traceback (most recent call last):
+  File "/home/ubuntu/Python/python_xyft/index_timer.py", line 57, in <module>
+    cm.calculate()
+  File "/home/ubuntu/Python/python_xyft/Calculate/CalculateManager.py", line 18, in calculate
+    if len(self.dataList) == 0:
+TypeError: object of type 'NoneType' has no len()
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+maka_do_sql mysql Error 2002: Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+maka_do_sql mysql Error 2002: Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+maka_do_sql mysql Error 2002: Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+Traceback (most recent call last):
+  File "/home/ubuntu/Python/python_xyft/index_timer.py", line 57, in <module>
+    cm.calculate()
+  File "/home/ubuntu/Python/python_xyft/Calculate/CalculateManager.py", line 18, in calculate
+    if len(self.dataList) == 0:
+TypeError: object of type 'NoneType' has no len()
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
