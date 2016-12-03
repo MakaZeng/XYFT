@@ -28,7 +28,7 @@ databaseTop = 0
 if result:
     databaseTop = result[0][0]
 
-if len(content):
+if content:
     s = json.loads(content)
     first = s[0]
 

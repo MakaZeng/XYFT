@@ -18,50 +18,41 @@ class Yuce(object):
         CREATOR.CreateTablePersonIfNotEXist()
         CREATOR.CreateTableBeatListIfNotEXist()
 
+        sql = "select {0} from {1} order by {0} limit 1".format(DBC.HISQI,DBC.HISTAB)
+        result = DBM.maka_do_sql(sql)
+        qishu = result[0][0]
+
         persons = [100,101,102,103,104,105,106,107,108,109]
         names = ["1","2","3","4","5","6","7","8","9","10"]
 
         for person in persons:
-            self.getTouzhuForPerson(person,names[person - 100])
-        # sql = "select {0} from {1} order by {2} DESC LIMIT 1".format(DBC.HISQI,DBC.HISTAB, DBC.HISQI)
-        # top = DBM.maka_do_sql(sql)
-        # top = top[0][0]
-        # longTop = long(top)
-        # if longTop %180 == 0 :
-        #     next = DU.getNextDayZeroQishu(top)
-        #     top = next
-        #
-        # currentTime = long(time.time())
-        # currentTime = DU.convertSecondsFrom1970ToDate(currentTime)
-        #
-        # type = self.getRandom()
-        #
-        # insertsql = 'INSERT INTO {0}.{1} ({2},{3},{4},{5},{6},{7},{8}) \
-        #     VALUES '.format(DBC.Database, DBC.BLTAB, \
-        #     DBC.BLQI, DBC.BLTIME, DBC.BLROAD, DBC.BLNUMBER, DBC.BLMONEY,DBC.BLSTATUS, DBC.BLPERSON, )
-        #
-        # personID = 100
-        #
-        # numbers = type['numbers']
-        # for n in numbers:
-        #     insertsql = insertsql + "('{0}','{1}','{2}',{3},{4},{5},{6}),".format( \
-        #     str(long(top)+1),currentTime,type['road'],n,long(type['beat']),0,personID)
-        #
-        # insertsql = insertsql[:-1]
-        # print insertsql
-        # DBM.maka_do_sql(insertsql)
+            self.getTouzhuForPerson(person,names[person - 100],qishu)
 
-    def getTouzhuForPerson(self,person,name):
+    def getTouzhuForPerson(self,person,name,qishu):
         sql = "select * from {0} where {1} = {2};".format(DBC.PSTAB,DBC.PSID,person)
         result = DBM.maka_do_sql(sql)
         if not result:
             result = USERCONTROLLER.inertPersonWith(person,name,name)
             print result
+        else:
+            tuple = result[0]
+            touzhu = self.getRandom()
 
+            currentTime = long(time.time())
+            currentTime = DU.convertSecondsFrom1970ToDate(currentTime)
+
+            numbers = touzhu['numbers']
+            numbers = ','.join(numbers)
+
+            sql = "insert into {0} ({1},{2},{3},{4},{5},{6},{7}) values ('{8}','{9}','{10}','{11}',{12},{13},{14})" \
+            .format(DBC.BLTAB,DBC.BLQI,DBC.BLTIME,DBC.BLROAD,DBC.BLNUMBER,DBC.BLMONEY,DBC.BLSTATUS,DBC.BLPERSON, \
+            qishu,currentTime,str(touzhu['road']),numbers,touzhu['beat'],0,person)
+            print sql
+            DBM.maka_do_sql(sql)
 
 
     def getRandom(self):
-        numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        numbers = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
         roads = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
         beats = [100, 200, 500, 1000, 2000]
         random.shuffle(numbers)
