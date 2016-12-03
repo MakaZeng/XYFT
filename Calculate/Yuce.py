@@ -33,19 +33,19 @@ class Yuce(object):
             self.getTouzhuForPerson(person,names[person - 100],qishu)
 
     def calculateHistoryYuce(self):
-        sql = "select {0},{1},{2},{3},{4},{5} from {6} where {7} == 0;".format(DBC.BLID,DBC.BLROAD,DBC.BLNUMBER,DBC.BLMONEY,DBC.BLPERSON,DBC.BLQI,DBC.BLTAB,DBC.BLSTATUS)
+        sql = "select {0},{1},{2},{3},{4},{5} from {6} where {7} = 0;".format(DBC.BLID,DBC.BLROAD,DBC.BLNUMBER,DBC.BLMONEY,DBC.BLPERSON,DBC.BLQI,DBC.BLTAB,DBC.BLSTATUS)
         result = DBM.maka_do_sql(sql)
         for line in result:
-            road = line['road']
-            numbers = line['numbers']
-            beat = line['beat']
-            id = line['id']
-            person = line['personID']
-            qishu = line['qishu']
+            road = int(line[1])
+            numbers = line[2]
+            beat = line[3]
+            id = line[0]
+            person = line[4]
+            qishu = line[5]
             sql = "select * from history where qishu = {0};".format(qishu)
-            result = DBM.maka_do_sql(sql)
-            his = [result[DBC.HISN1],result[DBC.HISN2],result[DBC.HISN3],result[DBC.HISN4],result[DBC.HISN5],result[DBC.HISN6],result[DBC.HISN7],result[DBC.HISN8],result[DBC.HISN9],result[DBC.HISN10]]
-            target = his[road-1]
+            result = DBM.maka_do_sql(sql)[0]
+            his = [result[2],result[3],result[4],result[5],result[6],result[7],result[8],result[9],result[10],result[11]]
+            target = int(his[road-1])
             isIn = 2
             for n in numbers.split(','):
                 if n==target:
