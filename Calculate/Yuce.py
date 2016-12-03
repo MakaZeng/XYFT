@@ -48,7 +48,7 @@ class Yuce(object):
             target = int(his[road-1])
             isIn = 2
             for n in numbers.split(','):
-                if n==target:
+                if int(n)==target:
                     isIn = 1
             sql = "update beatlist set status = {0} where id = {1};".format(isIn,id)
             DBM.maka_do_sql(sql)
