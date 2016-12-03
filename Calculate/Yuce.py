@@ -31,6 +31,28 @@ class Yuce(object):
         for person in persons:
             self.getTouzhuForPerson(person,names[person - 100],qishu)
 
+    def calculateHistoryYuce(self):
+        sql = "select {0},{1},{2},{3},{4},{5} from {6} where {7} == 0;".format(DBC.BLID,DBC.BLROAD,DBC.BLNUMBER,DBC.BLMONEY,DBC.BLPERSON,DBC.BLQI,DBC.BLTAB,DBC.BLSTATUS)
+        result = DBM.maka_do_sql(sql)
+        for line in result:
+            road = line['road']
+            numbers = line['numbers']
+            beat = line['beat']
+            id = line['id']
+            person = line['personID']
+            qishu = line['qishu']
+            sql = "select * from history where qishu = {0};".format(qishu)
+            result = DBM.maka_do_sql(sql)
+            his = [result[DBC.HISN1],result[DBC.HISN2],result[DBC.HISN3],result[DBC.HISN4],result[DBC.HISN5],result[DBC.HISN6],result[DBC.HISN7],result[DBC.HISN8],result[DBC.HISN9],result[DBC.HISN10]]
+            target = his[road-1]
+            isIn = 2
+            for n in numbers.split(','):
+                if n==target:
+                    isIn = 1
+            sql = "update beatlist set status = {0} where id = {1};".format(isIn,id)
+            DBM.maka_do_sql(sql)
+
+
     def getTouzhuForPerson(self,person,name,qishu):
         sql = "select * from {0} where {1} = {2};".format(DBC.PSTAB,DBC.PSID,person)
         result = DBM.maka_do_sql(sql)
