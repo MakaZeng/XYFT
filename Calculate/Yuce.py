@@ -18,12 +18,12 @@ class Yuce(object):
         CREATOR.CreateTablePersonIfNotEXist()
         CREATOR.CreateTableBeatListIfNotEXist()
 
-        sql = "select {0} from {1} order by {0} limit 1".format(DBC.HISQI,DBC.HISTAB)
+        sql = "select {0} from {1} order by {0} DESC limit 1".format(DBC.HISQI,DBC.HISTAB)
         result = DBM.maka_do_sql(sql)
         qishu = result[0][0]
 
         persons = [100,101,102,103,104,105,106,107,108,109]
-        names = ["幸运计划","牛牛计划","彩蛋计划","水果计划","主席计划","山羊计划","盖伦计划","小黑计划","进取计划","勇气计划"]
+        names = ["&#x5E78;&#x8FD0;&#x8BA1;&#x5212;","&#x725B;&#x725B;&#x8BA1;&#x5212;","&#x5F69;&#x86CB;&#x8BA1;&#x5212;","&#x6C34;&#x679C;&#x8BA1;&#x5212;","&#x4E3B;&#x5E2D;&#x8BA1;&#x5212;","&#x5C71;&#x7F8A;&#x8BA1;&#x5212;","&#x76D6;&#x4F26;&#x8BA1;&#x5212;","&#x5C0F;&#x9ED1;&#x8BA1;&#x5212;","&#x8FDB;&#x53D6;&#x8BA1;&#x5212;","&#x52C7;&#x6C14;&#x8BA1;&#x5212;"]
 
         for person in persons:
             self.getTouzhuForPerson(person,names[person - 100],qishu)
