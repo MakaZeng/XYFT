@@ -47,7 +47,6 @@ class Yuce(object):
             sql = "insert into {0} ({1},{2},{3},{4},{5},{6},{7}) values ('{8}','{9}','{10}','{11}',{12},{13},{14})" \
             .format(DBC.BLTAB,DBC.BLQI,DBC.BLTIME,DBC.BLROAD,DBC.BLNUMBER,DBC.BLMONEY,DBC.BLSTATUS,DBC.BLPERSON, \
             qishu,currentTime,str(touzhu['road']),numbers,touzhu['beat'],0,person)
-            print sql
             DBM.maka_do_sql(sql)
 
 

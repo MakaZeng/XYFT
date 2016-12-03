@@ -1,1 +1,58 @@
 Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+insert into person(personID,name,device,headImage,level,money,status) values (100,'幸运计划','幸运计划','0',0,0,'0')
+()
+insert into person(personID,name,device,headImage,level,money,status) values (101,'牛牛计划','牛牛计划','0',0,0,'0')
+()
+insert into person(personID,name,device,headImage,level,money,status) values (102,'彩蛋计划','彩蛋计划','0',0,0,'0')
+()
+insert into person(personID,name,device,headImage,level,money,status) values (103,'水果计划','水果计划','0',0,0,'0')
+()
+insert into person(personID,name,device,headImage,level,money,status) values (104,'主席计划','主席计划','0',0,0,'0')
+()
+insert into person(personID,name,device,headImage,level,money,status) values (105,'山羊计划','山羊计划','0',0,0,'0')
+()
+insert into person(personID,name,device,headImage,level,money,status) values (106,'盖伦计划','盖伦计划','0',0,0,'0')
+()
+insert into person(personID,name,device,headImage,level,money,status) values (107,'小黑计划','小黑计划','0',0,0,'0')
+()
+insert into person(personID,name,device,headImage,level,money,status) values (108,'进取计划','进取计划','0',0,0,'0')
+()
+insert into person(personID,name,device,headImage,level,money,status) values (109,'勇气计划','勇气计划','0',0,0,'0')
+()
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+Crawser_Start ----------------> 
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'person' already exists
+  result = cur.execute(sql)
+/home/ubuntu/Python/python_xyft/Dao/MysqlDBManager.py:11: Warning: Table 'beatlist' already exists
+  result = cur.execute(sql)
+Crawser_Start ----------------> 
+DELETE FROM xyft.tongji WHERE qishu > 0;
+Crawser_Start ----------------> 
